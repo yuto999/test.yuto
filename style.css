@@ -1,0 +1,43 @@
+body{
+    font-family:Arial,"ヒラギノ角ゴProN　W3","Hiragino Kaku Gothic ProNe","メイリオ",
+}
+h1{
+    color:white;
+    font-weight:bold;
+    font-size:36px;
+    text-align:center;
+    background-color:lightgreen;
+}
+span.yellow-futo{
+    background:liner-gradient(transparent 65%,yellow:65%);
+}
+p.kadomaru-box{
+    blckground-color:lightgrey;
+    max-width:300px;
+    text-align:center
+    boder-radius:5px;    
+}
+div.cv-contents{
+    max-width:800px;
+}
+.cv-contents figure{
+    float:left;
+    max-width:350px;
+}
+.cv-contents blockquote{
+    text-align: left;
+}
+.cv-contents:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+a:hover{
+    background-color:blue;color:white;
+}
+a:active{
+    background-color:pink;color:white;
+}
+img.hint{
+    max-width:90%
+}
